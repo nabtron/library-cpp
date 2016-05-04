@@ -7,11 +7,6 @@
 //  Copyright (c) 2016 nabtron. All rights reserved.
 //
 
-#include <iostream>
-
-using namespace std;
-
-
 int getFactorial(int num){
     
     int sum = 0;
@@ -25,6 +20,10 @@ int getFactorial(int num){
 }
 
 /* call by using this as example:
+
+#include <iostream>
+
+using namespace std;
 
 int main(int argc, const char * argv[])
 {
