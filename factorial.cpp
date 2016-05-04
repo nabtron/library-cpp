@@ -24,6 +24,7 @@ int getFactorial(int num){
     
 }
 
+/* call by using this as example:
 
 int main(int argc, const char * argv[])
 {
@@ -39,3 +40,6 @@ int main(int argc, const char * argv[])
     
     return 0;
 }
+
+
+*/
