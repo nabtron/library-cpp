@@ -39,13 +39,13 @@ using namespace std;
 int main(int argc, const char * argv[])
 {
 
-//programming is so easy, really!
-
     string num;
     int intnum = 0;
     cout << "Enter a number " << endl;
     getline(cin, num);
-    intnum = abs(stoi(num)); 
+    if(num != ""){
+        intnum = stoi(num);
+    }
     cout << getFactorial(intnum) << endl;
     
     return 0;
