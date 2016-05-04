@@ -34,7 +34,7 @@ int main(int argc, const char * argv[])
     int intnum = 0;
     cout << "Enter a number " << endl;
     getline(cin, num);
-    intnum = stoi(num);
+    intnum = abs(stoi(num)); 
     cout << getFactorial(intnum) << endl;
     
     return 0;
