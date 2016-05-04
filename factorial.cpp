@@ -9,12 +9,23 @@
 
 int getFactorial(int num){
     
+    // remove - sign if any
+    num = abs(num);
+
+    // define sum
     int sum = 0;
+    
+    // if the num is 0 or 1, no factorials possible, so return the same number back
+    // not returning 0 here will result in an infinite loop
+    // not returning 1 here will return 0 if the logic processes
     if( (0 == num) || (1 == num) ){
-        sum = num;
-        return sum;
+        // return the original number as it is, if it's 0 or 1
+        return num;
     }
+
+    // run recurrsively to get all factorials
     sum = getFactorial(num - 1) * num;
+    // return the factorials
     return sum;
     
 }
